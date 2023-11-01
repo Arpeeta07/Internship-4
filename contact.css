@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+.education{
+    padding : 3% 5% 1%;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+.heading{
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background:lightgrey;
+    text-align: right;
+    list-style: none;
+}
+.navbar{
+    justify-content: space-between;
+    display: flex;
+    align-items: flex-end;
+    float: right;   
+    width:100%;
+}
+
+.navbar ul{
+    display:flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-left:auto;
+   
+}
+.navbar ul li{
+    margin:0px 5px;
+    padding: 0px 15px;
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+.nav1{
+    color:green;
+    font-family: 'Bitter', serif;
+}
+.nav2{
+    color:black;
+     font-family: 'Bitter', serif;
+
+}
+
+.cartlogo{
+    height:30px;
+    width:50px;
+    cursor: pointer;
+    color:green;
+}
+.cartlogo:hover{
+    color :#088178;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+h1 {
+    text-align: center;
+}
+.form-group {
+    margin: 10px 0;
+}
+label {
+    font-weight: bold;
+    display: block;
+}
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+button {
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: green;
+}
